@@ -1,0 +1,53 @@
+●git コマンド
+
+git clone [repository url]
+既存のリポジトリをローカル環境に複製するコマンドのことです。 
+
+git status
+git add 
+
+
+tag一覧
+git tag
+
+特定のtagを確認
+git show タグ名
+git show 1a
+
+git log
+
+■tagの作成
+コメント（注釈）付きの場合
+git tag -a タグ -m 'タグのコメント'
+git tag -a 1a -m 'ver1.0' 0e5e4c3137ad00c2b86485f7133dac196061beaf
+
+コメント（注釈）なしの場合
+git tag タグ
+git tag v1.4
+
+■後からtagをつける場合
+git tag -a タグ -m 'コメント' コミット
+例）　git tag -a v1.2 -m 'version 1.2' 9fceb02
+
+■tagの共有
+git push origin タグ名
+
+git push origin 1a
+例) git push origin v1.5
+
+
+
+タグの削除
+まだpushしていないtagの場合
+git tag -d タグ名
+
+既にpushしたtagの場合
+既にpushしたtagは原則削除してはならない。
+
+
+git checkout 1a
+git checkoutでブランチを切り替える
+
+
+
+
