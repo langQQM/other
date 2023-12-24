@@ -5,8 +5,13 @@ git clone [repository url]
 
 git status
 git add "git command.txt"
+git status
+
 git commit -m "git command"
 git push
+
+git rm 
+//移除文件
 
 tag一覧
 git tag
@@ -16,6 +21,8 @@ git show タグ名
 git show 1a
 
 git log
+終了するため、半角qのキー押下。
+
 
 ■tagの作成
 コメント（注釈）付きの場合
@@ -61,5 +68,13 @@ resposity最新内容より回復したい場合、実行できる。
 
 ■git pull
 githubで直接にファイルを修正した後で、ローカルに最新変化を反映するために、このコマンドを使用できる。
+
+
+■リポジトリの削除
+GitHub.com で、リポジトリのメイン ページへ移動します。
+リポジトリ名の下にある [設定] をクリックします。 ...
+[危険ゾーン] セクションまで下にスクロールし、[このリポジトリを削除] をクリックします。
+[このリポジトリを削除する] をクリックします。
+
 
 
