@@ -49,5 +49,17 @@ git checkout 1a
 git checkoutでブランチを切り替える
 
 
+■git logを終了する方法をご紹介！
+結論をお伝えるすると git log を終了するには半角のqのキーで終了できます。 
+Ctrl + Cなどでは終了できませんのでご注意下さい。
+
+■git checkout .
+git checkout コマンドは、 git branch コマンドによって作成されたブランチ間を移動するコマンドです。
+git checkout .
+ローカル内容を修正すれば、
+resposity最新内容より回復したい場合、実行できる。
+
+■git pull
+githubで直接にファイルを修正した後で、ローカルに最新変化を反映するために、このコマンドを使用できる。
 
 
